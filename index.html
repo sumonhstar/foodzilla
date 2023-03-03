@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant-Home</title>
+    <!-- =====link-favicon===== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- =====boxicon-css==== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====link-bootstrap-css===== -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ======link-custom-css===== -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- =====link-responsive-css====== -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div id="body">
+<!-- ====header-section===== -->
+<header>
+<div class="nav-menu-logo-signup" data-fixed-nav-menu>
+    <div class="container">
+        <nav class="flex">
+            <div class="logo"><small>FoodZillA</small></div>
+            <div class="nav-menu" data-nav-menu>
+                <ul>
+                    <li>
+                        <a href="#banner">Home</a>
+                    </li>
+                    <li>
+                        <a href="#cetagories">Service</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#newsletter">Contact</a>
+                    </li>
+                    <span class="close-btn" data-menu-close-btn><i class='bx bx-x' ></i></span>
+                </ul>
+            </div>
+            <div class="signup-box flex">
+                <a href="#">Sign Up</a>
+                <span class="active-btn" data-menu-active-btn><i class='bx bx-grid-alt'></i></span>
+            </div>
+        </nav>
+    </div>
+</div>
+</header>
+
+<!-- ====banner-section===== -->
+<div class="banner-section" id="banner">
+    <div class="container">
+        <div class="banner-content">
+            <h1>Eat, Drink and 
+                Enjoy.</h1>
+            <p>Your Restaurant is Waiting For You.</p>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut.   </span>
+            <div class="btn-box flex">
+                <a href="#">Explore</a>
+                <a href="#">See Menu</a>
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="images/banner-image.png">
+        </div>
+        <div class="lamp">
+            <img src="images/lamp.png">
+        </div>
+    </div>
+</div>
+
+<!-- =====booking-section===== -->
+<div class="booking-section">
+    <div class="container">
+        <div class="booking-title"><span>Book A Table ></span></div>
+        <div class="booking-time-box flex">
+            <div class="booking-item">
+                <p><span>Date</span><i class='bx bx-chevron-down' ></i></p>
+                <input type="date" placeholder="01/01/2023">
+            </div>
+
+            <div class="booking-item">
+                <p><span>Time</span><i class='bx bx-chevron-down' ></i></p>
+                <input type="Time" placeholder="6.00am">
+            </div>
+
+            <div class="booking-item">
+                <p><span>Mail</span><i class='bx bx-chevron-down' ></i></p>
+                <input type="email" placeholder="demo@gmail.com">
+            </div>
+            <button>Check Aviability</button>
+        </div>
+    </div>
+</div>
+
+<!-- =====cetagories-section===== -->
+<section class="cetagories-section" id="cetagories">
+    <div class="container">
+        <p class="cetagories-sub-title text-center">Delicious</p>
+        <h3 class="cetagories-title text-center">Food Cetagories</h3>
+        <div class="row flex">
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="cetagories-content">
+                    <div class="cetagories-card">
+                        <div class="img">
+                            <img src="images/ceta-img-1.png">
+                            <h3>Meat</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod amet, consectetur adipiscing tempor incididunt ut.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="cetagories-content">
+                    <div class="cetagories-card">
+                        <div class="img">
+                            <img src="images/ceta-img-2.png">
+                            <h3>Fish</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod amet, consectetur adipiscing tempor incididunt ut.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="cetagories-content">
+                    <div class="cetagories-card">
+                        <div class="img">
+                            <img src="images/ceta-img-3.png">
+                            <h3>Drink</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod amet, consectetur adipiscing tempor incididunt ut.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ======about-section====== -->
+<section class="about-section" id="about">
+    <div class="about-content flex">
+        <div class="about-left-img">
+            <img src="images/table-left.png">
+        </div>
+        <div class="about-middle-content">
+            <h3>COVID-19 Protocol</h3>
+            <h2>We care about you</h2>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="about-right-img">
+            <img src="images/table-right.png">
+        </div>
+    </div>
+    <div class="about-bg-image">
+        <img src="images/about.png" alt="">
+    </div>
+</section>
+
+<!-- ======restaurant-section======= -->
+<section class="restaurant-section">
+    <div class="container">
+        <div class="row flex">
+            <div class="col-sm-12 col-md-5 col-lg-4">
+                <div class="restaurant-content">
+                    <h4>Story</h4>
+                    <h3>Our Restaurant</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet et dolore magna.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="restaurant-image">
+                    <img src="images/story-section-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======ingredient-section======= -->
+<section class="ingredient-section">
+    <div class="container">
+        <div class="row flex">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="ingredient-image">
+                    <img src="images/idgredient-section-image.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-5">
+                <div class="ingredient-content">
+                    <h4>Ingredients</h4>
+                    <h3>Fresh and healthy 
+                        ingredients</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======chef-section======= -->
+<section class="restaurant-section chef-section">
+    <div class="container">
+        <div class="row flex">
+            <div class="col-sm-12 col-md-5 col-lg-4">
+                <div class="restaurant-content chef-content">
+                    <h4>Words From</h4>
+                    <h3>The Chef</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet, consectetur adipisicing 
+elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet et dolore magna.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="restaurant-image">
+                    <img src="images/chef-section-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======customer-review-section===== -->
+<section class="customer-review-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="customer-review-content flex">
+                    <div class="customer-review-img m-auto">
+                        <img src="images/customer-1.png" alt="">
+                    </div>
+                    <div class="customer-review-text">
+                        <div class="name flex"><h3>John Smith</h3><span>Feb / 02 / 02</span></div>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.”</p>
+                        <div class="rating-box">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="customer-review-content flex">
+                    <div class="customer-review-img m-auto">
+                        <img src="images/customer-2.png" alt="">
+                    </div>
+                    <div class="customer-review-text">
+                        <div class="name flex"><h3>Sara Jonson</h3><span>Feb / 02 / 02</span></div>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.”</p>
+                        <div class="rating-box">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="customer-review-content flex">
+                    <div class="customer-review-img m-auto">
+                        <img src="images/customer-3.png" alt="">
+                    </div>
+                    <div class="customer-review-text">
+                        <div class="name flex"><h3>John Smith</h3><span>Feb / 02 / 02</span></div>
+                        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.”</p>
+                        <div class="rating-box">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =====newsletter-section====== -->
+<section class="newsletter-section" id="newsletter">
+    <div class="container">
+        <h4 class="newsletter-sub-title text-center">Subcribe</h4>
+        <h2 class="newsletter-title text-center">To Our Newsletter</h2>
+        <div class="newsletter-content">
+            <input type="text" placeholder="NAME">
+            <input type="email" placeholder="MAIL">
+            <textarea placeholder="MESSAGE"></textarea>
+            <a href="#" class="btn">SEND MESSAGE</a>
+        </div>
+    </div>
+    <div class="leaf-1">
+        <img src="images/plant-1.png" alt="">
+    </div>
+    <div class="fruit">
+        <img src="images/fruit-image.png" alt="">
+    </div>
+    <div class="fish">
+        <img src="images/fish-image.png" alt="">
+    </div>
+    <div class="leaf-2">
+        <img src="images/plant-2.png" alt="">
+    </div>
+</section>
+
+<!-- ======footer-section======== -->
+<footer>
+    <div class="container">
+        <div class="footer-content flex">
+            <div class="footer-about-part">
+                <h3>About</h3>
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Mission Statement</a>
+                <a href="#">Trems & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-what-do-part">
+                <h3>What We Do</h3>
+                <a href="#">New and Stories</a>
+                <a href="#">Publications</a>
+                <a href="#">Take Action</a>
+                <a href="#">Recomendations</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="footer-newsletter-part">
+                <h3>Sign Up To Receive <br> Our Newsletter</h3>
+                <input type="text">
+                <div class="footer-social-icons flex">
+                    <span>Follow Us !</span>
+                    <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="#"><i class='bx bxl-dribbble' ></i></a>
+                    <a href="#"><i class='bx bxl-skype' ></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-hr">
+        <p class="copy-text">All right Copyright © 2023 reserved By FoodZillA. | Sumon</p>
+    </div>
+    <!-- ====back-to-top==== -->
+    <a href="#body" class="back-to-top flex" data-back-to-top><i class='bx bxs-chevron-up'></i></a>
+</footer>
+</div>
+<!-- =====boxicon-js====== -->
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<!-- =====link-custome-js===== -->
+<script src="js/script.js"></script>
+</body>
+</html>
